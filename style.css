@@ -3,10 +3,6 @@ html {
     box-sizing: border-box;
   }
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
   body {
     margin: 0;
     padding: 0;
@@ -15,7 +11,6 @@ html {
     display: flex;
     min-height: 100vh;
     align-items: center;
-  
     background-image:
     radial-gradient(circle at 100% 150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
     radial-gradient(circle at 0    150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
@@ -46,7 +41,6 @@ html {
     text-align: center;
     font-size: 5rem;
     font-weight: 700;
-    text-shadow: 3px 3px 0 #F3C010;
   }
   
   .voiceinator input,
